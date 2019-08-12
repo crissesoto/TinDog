@@ -1,0 +1,194 @@
+/* Tag Selectors */
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Classes Selectors */
+.container-fluid{
+  padding: 3% 15%;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.text-white{
+  color: #ffffff;
+}
+
+.text-black{
+  color: #000000
+}
+
+.bg-pink{
+  background-color: #e84b79;
+}
+
+.bg-peach{
+  background-color: #ef8172;
+}
+.bg-white{
+  background-color: #ffffff;
+}
+
+.b-heading{
+  font-size: 3rem;
+}
+
+
+
+
+/* Navagation bar*/
+.navbar{
+  padding:0 0 4.5rem 0;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu:500', sans-serif;
+  font-size: 2rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+font-size: 1.2rem;  
+}
+
+/* Header*/
+
+#title img{
+  transform: rotate(20deg);
+  width: 60%;
+  position: absolute;
+  z-index: 1;
+  right: 30%;
+}
+
+
+#title .download-btn{
+  margin: 5% 3% 5% 0%;
+}
+
+/* Feature Section */
+
+#features{
+position: relative;
+z-index: 2;
+
+}
+#features .row{
+margin: 5% 0;
+
+}
+
+#features i{
+color: #ef8172;
+margin-bottom: 1rem;
+}
+
+#features i:hover {
+color: #e84b79;
+}
+
+
+#features p {
+color: #8f8f8f;
+}
+
+/* Testimonials Section */
+
+#testimonials img {
+width: 10%;
+border-radius: 50%;
+margin: 20px;
+}
+
+/* Press Section */
+
+#press .press-div{
+padding: 7% 0;
+padding-top: 1%;
+text-align: center;
+}
+
+#press .press-div img{
+margin-right: 15px;
+width: 15%;
+}
+
+/* Pricing Section*/
+
+#pricing{
+padding: 7%;
+}
+
+#pricing .card{
+height: 100%;
+margin-bottom: 20px;
+box-shadow: #8f8f8f;
+}
+
+
+#pricing img{
+  margin: auto;
+  width: 60%;
+}
+
+#pricing .btn-down{
+margin-top: 60px;
+}
+
+/* Call To Action section */
+
+ #cta {
+  padding-bottom: 8%;
+}
+
+#cta h3{
+  padding: 5% 8%;
+}
+
+.btn{
+margin: 15px;
+}
+
+/* Footer */
+
+.div-footer{
+  margin: 0px auto;
+}
+#footer i{
+  margin-right: 10px;
+}
+
+#footer p{
+  color: #8f8f8f;
+  font-size: .8rem;
+  margin-top: 20px;
+}
+
+
+
+/*  Media Queries */
+
+@media only screen and (max-width: 1028px) {
+
+
+
+  #title img {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    transform: rotate(0);
+    right: 0;
+
+  }
+
+  #title{
+    text-align: center;
+  }
+}
